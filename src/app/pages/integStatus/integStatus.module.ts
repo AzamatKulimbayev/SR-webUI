@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 
-import { UsersRoutingModule } from './users-routing.module';
+import { IntegStatusRoutingModule } from './integStatus-routing.module';
 
-import { UsersComponent } from './users.component';
+import { IntegStatusComponent } from './integStatus.component';
 
 
 @NgModule({
-  imports: [UsersRoutingModule],
-  declarations: [UsersComponent],
-  exports: [UsersComponent]
+  imports: [IntegStatusRoutingModule],
+  declarations: [IntegStatusComponent],
+  exports: [IntegStatusComponent]
 })
-export class UsersModule { }
+export class IntegStatusModule { }

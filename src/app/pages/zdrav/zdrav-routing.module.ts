@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { IntegStatusComponent } from './integStatus.component';
+import { ZdravComponent } from './zdrav.component';
 
 const routes: Routes = [
-  { path: '', component: IntegStatusComponent },
+  { path: '', component: ZdravComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class IntegStatusRoutingModule { }
+export class ZdravRoutingModule { }

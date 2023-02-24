@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 
-import { ZdravRoutingModule } from './zdrav-routing.module';
+import { UsersRoutingModule } from './users-routing.module';
 
-import { ZdravComponent } from './zdrav.component';
+import { UsersComponent } from './users.component';
 
 
 @NgModule({
-  imports: [ZdravRoutingModule],
-  declarations: [ZdravComponent],
-  exports: [ZdravComponent]
+  imports: [UsersRoutingModule],
+  declarations: [UsersComponent],
+  exports: [UsersComponent]
 })
-export class ZdravModule { }
+export class UsersModule { }
